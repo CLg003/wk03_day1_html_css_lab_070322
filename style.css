@@ -1,0 +1,84 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+}
+
+body > footer > p {
+    margin: 0;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    display: inline-block;
+}
+
+body > header > h1 {
+    margin: 0;
+    
+}
+
+body > header > nav > a {
+    color: white;
+}
+
+nav {
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+}
+
+aside {
+    display: inline-block;
+}
+
+#breaking-news > ul {
+    list-style: none;
+}
+
+.boxes {
+    display: flex;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#comment-submit {
+    float: right;
+}
+
+article > footer > ul {
+    list-style: none;
+}
+
+#breaking-news > h2 {
+    margin-left: 35px;
+}
+
+#breaking-news > h3 {
+    margin-left: 35px;
+}
+
+#breaking-news > ul > li  {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.headlines {
+    margin-left: 20px
+}
+
+article > main {
+    margin: 0;
+}
