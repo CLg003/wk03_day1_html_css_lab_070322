@@ -3,71 +3,51 @@ body {
     margin: 0;
 }
 
-body > footer {
-    background-color: dodgerblue;
-    color: white;
-    padding: 16px;
-}
-
-body > footer > p {
-    margin: 0;
-    text-align: center;
-}
-
 body > header {
     background-color: dodgerblue;
     color: white;
-    padding: 16px;
+    padding: 10px;
     width: 100%;
     display: inline-block;
 }
 
 body > header > h1 {
     margin: 0;
-    
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+body > header > nav {
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+    padding-right: 30px;
 }
 
 body > header > nav > a {
     color: white;
 }
 
-nav {
-    text-align: right;
-    position: relative;
-    bottom: 20px;
-}
-
-aside {
-    display: inline-block;
-}
-
-#breaking-news > ul {
-    list-style: none;
+main {
+    width: 85%;
+    margin: auto;
 }
 
 .boxes {
     display: flex;
-}
-
-main {
-    width: 80%;
-    margin: auto;
-}
-
-#comment-submit {
-    float: right;
-}
-
-article > footer > ul {
-    list-style: none;
+    width: 85%;
 }
 
 #breaking-news > h2 {
-    margin-left: 35px;
+    margin-left: 40px;
 }
 
 #breaking-news > h3 {
-    margin-left: 35px;
+    margin-left: 40px;
+}
+
+#breaking-news > ul {
+    list-style: none;
 }
 
 #breaking-news > ul > li  {
@@ -81,4 +61,29 @@ article > footer > ul {
 
 article > main {
     margin: 0;
+}
+
+article > footer {
+    width: 85%;
+}
+
+article > footer > ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#comment-submit {
+    float: right;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px;
+}
+
+body > footer > p {
+    margin: 0;
+    text-align: center;
 }
